@@ -1,0 +1,14 @@
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\Scanner\bin\Debug\net8.0\Scanner.exe
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\Scanner\bin\Debug\net8.0\Scanner.deps.json
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\Scanner\bin\Debug\net8.0\Scanner.runtimeconfig.json
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\Scanner\bin\Debug\net8.0\Scanner.dll
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\Scanner\bin\Debug\net8.0\Scanner.pdb
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\Scanner\obj\Debug\net8.0\Scanner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\Scanner\obj\Debug\net8.0\Scanner.AssemblyInfoInputs.cache
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\Scanner\obj\Debug\net8.0\Scanner.AssemblyInfo.cs
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\Scanner\obj\Debug\net8.0\Scanner.csproj.CoreCompileInputs.cache
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\Scanner\obj\Debug\net8.0\Scanner.dll
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\Scanner\obj\Debug\net8.0\refint\Scanner.dll
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\Scanner\obj\Debug\net8.0\Scanner.pdb
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\Scanner\obj\Debug\net8.0\Scanner.genruntimeconfig.cache
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\Scanner\obj\Debug\net8.0\ref\Scanner.dll

@@ -1,0 +1,14 @@
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\C# Ivan\bin\Debug\net8.0-windows\Master.exe
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\C# Ivan\bin\Debug\net8.0-windows\Master.deps.json
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\C# Ivan\bin\Debug\net8.0-windows\Master.runtimeconfig.json
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\C# Ivan\bin\Debug\net8.0-windows\Master.dll
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\C# Ivan\bin\Debug\net8.0-windows\Master.pdb
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\C# Ivan\obj\Debug\net8.0-windows\Master.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\C# Ivan\obj\Debug\net8.0-windows\Master.AssemblyInfoInputs.cache
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\C# Ivan\obj\Debug\net8.0-windows\Master.AssemblyInfo.cs
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\C# Ivan\obj\Debug\net8.0-windows\Master.csproj.CoreCompileInputs.cache
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\C# Ivan\obj\Debug\net8.0-windows\Master.dll
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\C# Ivan\obj\Debug\net8.0-windows\refint\Master.dll
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\C# Ivan\obj\Debug\net8.0-windows\Master.pdb
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\C# Ivan\obj\Debug\net8.0-windows\Master.genruntimeconfig.cache
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\C# Ivan\obj\Debug\net8.0-windows\ref\Master.dll

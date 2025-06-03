@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36127.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Master", "C# Ivan\Master.csproj", "{B8FEE2DF-6E60-4459-9C1A-4AF006B6D331}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scanner", "Scanner\Scanner.csproj", "{C74F2DE5-E9A0-425C-8161-0E1718C36D2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8FEE2DF-6E60-4459-9C1A-4AF006B6D331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8FEE2DF-6E60-4459-9C1A-4AF006B6D331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8FEE2DF-6E60-4459-9C1A-4AF006B6D331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8FEE2DF-6E60-4459-9C1A-4AF006B6D331}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C74F2DE5-E9A0-425C-8161-0E1718C36D2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C74F2DE5-E9A0-425C-8161-0E1718C36D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C74F2DE5-E9A0-425C-8161-0E1718C36D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C74F2DE5-E9A0-425C-8161-0E1718C36D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD806019-A15A-4A48-A7AC-3DBB23F28C32}
+	EndGlobalSection
+EndGlobal

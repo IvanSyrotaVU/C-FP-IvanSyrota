@@ -12,3 +12,4 @@ C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\C# Ivan\obj\Debug\net8.0-w
 C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\C# Ivan\obj\Debug\net8.0-windows\Master.pdb
 C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\C# Ivan\obj\Debug\net8.0-windows\Master.genruntimeconfig.cache
 C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\C# Ivan\obj\Debug\net8.0-windows\ref\Master.dll
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\C# Ivan\obj\Debug\net8.0-windows\Master.sourcelink.json

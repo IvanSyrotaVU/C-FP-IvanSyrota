@@ -12,3 +12,4 @@ C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\Scanner\obj\Debug\net8.0\r
 C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\Scanner\obj\Debug\net8.0\Scanner.pdb
 C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\Scanner\obj\Debug\net8.0\Scanner.genruntimeconfig.cache
 C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\Scanner\obj\Debug\net8.0\ref\Scanner.dll
+C:\Users\Zaidimu PC\Desktop\C# FP Ivan Syrota\C# Ivan\Scanner\obj\Debug\net8.0\Scanner.sourcelink.json

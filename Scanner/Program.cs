@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 class Program
 {
@@ -18,27 +19,31 @@ class Program
         var allFiles = Directory.GetFiles(directory, "*.txt");
         var queueA = new ConcurrentQueue<string>();
         var queueB = new ConcurrentQueue<string>();
-
         var threads = new List<Thread>();
 
         var filesA = allFiles.Take(allFiles.Length / 2).ToArray();
         var filesB = allFiles.Skip(allFiles.Length / 2).ToArray();
 
+        int cpuCore = 0;
+
         foreach (var file in filesA)
         {
-            var t = new Thread(() => ProcessFile(file, queueA));
-            threads.Add(t);
-            t.Start();
+            var thread = new Thread(() => ProcessFile(file, queueA));
+            threads.Add(thread);
+            thread.Start();
+
+            SetAffinity(cpuCore++);
         }
 
         foreach (var file in filesB)
         {
-            var t = new Thread(() => ProcessFile(file, queueB));
-            threads.Add(t);
-            t.Start();
+            var thread = new Thread(() => ProcessFile(file, queueB));
+            threads.Add(thread);
+            thread.Start();
+
+            SetAffinity(cpuCore++);
         }
 
-        
         foreach (var t in threads)
             t.Join();
 
@@ -59,13 +64,26 @@ class Program
             queue.Enqueue($"{Path.GetFileName(filePath)};{g.Key};{g.Count()}");
         }
 
-        Console.WriteLine($"Processed: {Path.GetFileName(filePath)}");
+        Console.WriteLine($"Processed: {Path.GetFileName(filePath)} on Thread {Thread.CurrentThread.ManagedThreadId}");
     }
 
     static void SendToPipe(string pipeName, ConcurrentQueue<string> queue)
     {
         using var pipe = new NamedPipeClientStream(".", pipeName, PipeDirection.Out);
-        pipe.Connect();
+
+        bool connected = false;
+        while (!connected)
+        {
+            try
+            {
+                pipe.Connect(1000);
+                connected = true;
+            }
+            catch (TimeoutException)
+            {
+                Console.WriteLine($"Waiting for pipe: {pipeName}...");
+            }
+        }
 
         using var writer = new StreamWriter(pipe, Encoding.UTF8) { AutoFlush = true };
 
@@ -76,6 +94,25 @@ class Program
 
         Console.WriteLine($"Sent to pipe: {pipeName}");
     }
+
+    static void SetAffinity(int cpuIndex)
+    {
+        try
+        {
+            var process = Process.GetCurrentProcess();
+            var threads = process.Threads;
+
+            if (cpuIndex >= threads.Count)
+                cpuIndex = cpuIndex % threads.Count;
+
+            var targetThread = threads[cpuIndex];
+            targetThread.ProcessorAffinity = (IntPtr)(1 << (cpuIndex % Environment.ProcessorCount));
+
+            Console.WriteLine($"OS Thread {targetThread.Id} assigned to CPU core {cpuIndex % Environment.ProcessorCount}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Failed to set affinity: {ex.Message}");
+        }
+    }
 }
-
-
